@@ -2,7 +2,8 @@ name: Build RSDKv4
 on:
   push:
     branches:
-      - main
+      - Android-S1
+      - Android-S2
 
 env:
   GENERAL_FLAGS: "-DRETRO_DISABLE_PLUS=ON -DCMAKE_BUILD_TYPE=Release"
